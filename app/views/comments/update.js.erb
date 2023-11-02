@@ -1,1 +1,1 @@
-console.log("to be updated!")
+$("#<%= dom_id(@comment.photo) %>_<%= dom_id(@comment) %>_form").replaceWith("<%= j(render @comment) %>");
