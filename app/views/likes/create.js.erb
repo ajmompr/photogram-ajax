@@ -1,0 +1,2 @@
+<!-- find and replace photo_{id}_likes -->
+$("#<%= dom_id(@like.photo) %>_likes").replaceWith("<%= j(render 'photos/likes', photo: @like.photo) %>");
